@@ -4,7 +4,7 @@ printf "Updating...\n"
 sudo apt-get update
 
 printf "\nInstalling sqlite3\n"
-sudo apt-get install sqlite3
+sudo apt-get install sqlite3 figlet
 
 printf "\nEditing pagen file permissions\n"
 chmod +x pagen.sh

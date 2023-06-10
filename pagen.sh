@@ -1,6 +1,8 @@
 #! /bin/bash
 
 
+figlet Pagen
+
 function pwdgen(){
   tr -cd '[:alnum:]' < /dev/urandom | fold -w${pwd_lenght} | head -n 1
 }
