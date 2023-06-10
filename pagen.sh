@@ -10,8 +10,7 @@ echo "-------------------------------------"
 printf "Welcome to PAssword GENarotor PAGEN\n"
 echo "-------------------------------------"
 
-i=1
-while (($i>0))
+while true
 do
   
   printf "What do you want to do?\n"
